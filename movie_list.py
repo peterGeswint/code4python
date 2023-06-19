@@ -21,7 +21,7 @@ def list_movies(movies):
 
 def add_movies():
         name = input("Name: ")
-        year = input("Year: ")
+        year = input("Year Released: ")
         movie = [name,year]
         movie.append(movie)
         write_movies(movie)
@@ -40,9 +40,9 @@ def display_menu():
     print()
     print("COMMAND MENU")
     print("List - List all movies")
-    print("Add - Add a movie")
+    print("Add - Add a movies")
     print("Del - Delete a movie")
-    print("Exit - Exit program")
+    print("Exit - Exit the program")
     print()
 
 def main():
